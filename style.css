@@ -1,0 +1,130 @@
+body {
+  font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(205, 204, 204);
+    font-weight: normal;
+    font-size: 14px;
+    color: #595959;
+    text-align: center;
+  }
+  
+  .top  img{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .top{
+    /* background-color: black; */
+    background-color: #131416;
+
+  }
+  
+  header {
+    box-shadow: 5px 5px 20px ;
+    text-align: center;
+    font-size: 30px;
+    background-color: #1d3c45;
+    color: #f7f8fb;
+    
+  }
+  
+  #content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff1e1;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  #heading {
+    box-shadow: 0px -1px 20px 0px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: #1d3c45;
+}
+  
+  .box {
+    padding: 10px;
+  }
+  
+  .card {
+    width: 290px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid rgb(179, 168, 168);
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    padding-bottom: 5vmin;
+  }
+  
+  .card img {
+    margin-top: 10px;
+    
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .buttn button {
+    background-color: white;
+    border-radius: 25px;
+    border: 0.5px solid rgb(179, 168, 168);
+    padding: 4px 8px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+  }
+  .buttn button:hover{
+    background-color:  rgba(99, 158, 186, 0.506);
+  }
+  
+  h1 {
+    background-color: white;
+    margin-left: 10px;
+  }
+  
+  p {
+    line-height: 19px;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.527);
+    font-weight: bold;
+  }
+  
+  .buttn2 button {
+    background-color: rgba(99, 158, 186, 0.506);
+    border-radius: 50px;
+
+    border: 0.9px solid rgb(179, 168, 168);
+    /* padding: 8px 10px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    color: #1d3c45;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .buttn2 button:hover{
+    color: rgb(255, 255, 255);
+  }
+
+  footer{
+    border-top:2px solid #131416;
+    border-bottom:2px solid #131416;
+    background-color: rgb(199, 209, 216);
+    font-size: 20px;
+    padding: 2vmin;
+    color: #131416;
+
+  }
